@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="./style.css">
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os valores em Real R$
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <select name="moedas" id="moedas">
+    <option value="dolar">Dólar</option>
+    <option value="euro">Euro</option>
+    <option value="libra">Libra</option>
+    <option value="bitcoin">Bitcoin</option>
+  </select>
+  <label for="moeda">Insira o valor</label><br>
+  <input type="number" id="valor" size="2" /><br>
+  <button type="submit" onclick="Converter()">Converter</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+  <p class="created by"> 
+    Created by Bianca Antunes 
+  </p>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="!" alt="" class="alura-logo">
+  <script  src="./script.js"></script>
